@@ -1,0 +1,128 @@
+.jobs-main-container {
+  padding: 16px;
+  min-height: 100vh;
+  background-color: #000000;
+}
+@media screen and (min-width: 768px) {
+  .jobs-main-container {
+    padding: 24px 100px;
+    display: flex;
+  }
+}
+.search-joblist-container{
+  width: 100%;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-search-box {
+  width: 100%;
+  padding: 10px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  margin-top: 4px;
+  background-color: transparent;
+  border: 2px solid #2c364c;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  height: 39px;
+  border-right-width: 0px;
+}
+.jobs-search-icon {
+  height: 39px;
+  width: fit-content;
+  color: #ffffff;
+  background-color: #2f2f2f;
+  align-self: center;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  margin-top: 4px;
+  border: 2px solid #2c364c;
+  border-left-width: 0px;
+  padding: 2px 10px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+.search-button {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border-width: 0px;
+  padding: 0px;
+}
+.job-search-container-sm {
+  display: flex;
+}
+.job-search-container-lg {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .job-search-container-sm {
+    display: none;
+  }
+  .job-search-container-lg {
+    display: flex;
+  }
+}
+.jobs-profile-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  width: 100%;
+  height: fit-content;
+  background-size: cover;
+  padding: 16px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .job-container-for-large {
+    min-width: 30%;
+    margin-right: 40px;
+  }
+}
+.job-profile-logo {
+  height: 64px;
+  width: fit-content;
+}
+.profile-name {
+  color: #6366f1;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.profile-description {
+  color: #272727;
+  margin-bottom: 10px;
+}
+.line-break-color {
+  border: 1px solid #7e858e;
+  margin-bottom: 16px;
+}
+.employment-type-list {
+  list-style-type: none;
+  padding: 0px;
+}
+.heading-text {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.job-list {
+  padding: 0px;
+  list-style-type: none;
+  margin-top: 36px;
+}
+@media screen and (min-width: 768px) {
+  .job-list {
+    margin-top: 16px;
+  }
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

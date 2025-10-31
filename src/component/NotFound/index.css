@@ -1,0 +1,31 @@
+.not-found-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000000;
+  min-height: 100vh;
+  padding: 24px;
+}
+.not-found-title {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 16px;
+  margin: 0px;
+  margin-top: 16px;
+}
+.not-found-text {
+  color: #cbd5e1;
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .not-found-title {
+    font-size: 24px;
+  }
+  .not-found-text {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,66 @@
+.login-company-logo {
+  width: 90px;
+  height: 24px;
+  margin-bottom: 24px;
+}
+.login-main-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+.login-container {
+  padding: 24px;
+  background-color: #202020;
+  border-radius: 8px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .login-container {
+    width: 300px;
+    height: 300px;
+  }
+}
+.login-labels {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+}
+.label-input-container {
+  width: 100%;
+  align-self: flex-start;
+  margin-bottom: 16px;
+}
+.login-input-box {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 4px;
+  background-color: transparent;
+  border: 2px solid #2c364c;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+.login-btn {
+  padding: 10px 24px;
+  color: #ffffff;
+  background-color: #4f46e5;
+  border-radius: 4px;
+  border-width: 0px;
+  align-self: flex-start;
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+.error-message {
+  color: red;
+  align-self: flex-start;
+}
